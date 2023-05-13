@@ -1,4 +1,5 @@
 Program: (numbers_words.l)
+
 %%
 [\t ]+ ;
 [0-9]+|[0-9]*\.[0-9]+ { printf("\n%s is NUMBER", yytext);}
